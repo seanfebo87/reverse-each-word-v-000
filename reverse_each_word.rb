@@ -1,7 +1,8 @@
 def reverse_each_word(sen)
   reverse = []
-  sen.each do |words|
-    reverse.push(words.reverse!)
+  reverse.push(sen)
+  reverse.each do |word|
+    word.reverse!
   end 
   return reverse
 end

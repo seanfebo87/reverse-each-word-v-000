@@ -1,9 +1,10 @@
 def reverse_each_word(sen)
-  reverse = []
-  reverse.push(sen)
-  reverse.each do |word|
-    word.reverse!
+  answer = []
+  new = sen.split
+  new.each do |word|
+    answer.push(word.reverse!)
   end 
-  return reverse
+  return answer
 end
+    
   

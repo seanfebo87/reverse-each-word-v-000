@@ -9,5 +9,5 @@ end
 def reverse_each_word(sen)
   sen.split.map do |word|
   end
-    sen.join(" ")
+    .join(" ")
 end  

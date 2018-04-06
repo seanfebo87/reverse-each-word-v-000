@@ -7,7 +7,7 @@ def reverse_each_word(sen)
 end
     
 def reverse_each_word(sen)
-  sen.split.map do |word|
+  sen.split.collect do |word|
   end
     .join(" ")
 end  

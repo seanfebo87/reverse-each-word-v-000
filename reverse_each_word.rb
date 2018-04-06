@@ -6,4 +6,8 @@ def reverse_each_word(sen)
   return answer.join(" ")
 end
     
-  
+def reverse_each_word(sen)
+  sen.split.map do |word|
+    sen.join(" ")
+  end
+end  
